@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+  <html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<!-- Viewport -->
+    	<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <link rel="shortcut icon" href="Other/img.ico"/>
+        <!-- CSS -->
+ 	      <link rel="stylesheet" type="text/css" href="css/Cstyle.css">
+ 	      <link rel="stylesheet" type="text/css" href="css/bg-animation.css">
+ 	      <!-- js scripts -->
+        <script src="js/AnimatedTitle.js"></script>
+        <script src="ajax/libs/jquery/3-3-1/jquery.min.js"></script>
+        <script src="js/BlockInspect.js"></script>
+        <!-- Meta -->
+        <meta name='keywords' content='xayac, xay.ac'>
+        <meta name='description' content='xay.ac #1'>
+        <meta name='subject' content='Personal Page'>
+        <meta name='copyright' content='xay.ac'>
+        <meta name='language' content='En'>
+        <meta name='robots' content='index,follow'>
+        <meta name='author' content='xayac, Admin@xay.ac'>
+        <meta name='reply-to' content='Admin@xay.ac'>
+        <meta name='owner' content='Xex'>
+        <meta name='url' content='https://www.xay.ac'>
+        <meta name='identifier-URL' content='https://www.xay.ac'>
+        <meta name="revisit-after" content="1 days">
+        <meta name='distribution' content='Global'>
+        <meta name='HandheldFriendly' content='True'>
+        <meta name='MobileOptimized' content='320'>
+        <meta property="og:title" content="xay.ac">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="xayac">
+        <meta property="og:url" content="https://www.xay.ac">
+        <meta name="theme-color" content="#ffdf2b">
+
+      
+    </head>
+<body>
+  <div id="background" style="opacity: 0.1"></div>
+  <div id="bg" class="bg-animation">
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+  <div id='stars4'></div>
+  <div id="background" style="opacity: 0.1"></div>
+  <div id="player" style="position: fixed; z-index: -99; width: 100%; background-color: black; opacity: 1"></div>
+  </div>
+  </div>
+  <!-- Dropdown box -->
+  <div class="dropdown">
+  <button id="myBtn" class="dropbtn">&#9776;</button>
+  <div id="myDropdown" class="dropdown-content">
+  <a href="ALPHA_subdomain/index.html">Tool 1</a>
+  <a href="BRAVO_subdomain/index.html">Tool 2</a>
+  <a href="CHARLIE_subdomain/index.html">Tool 3</a>
+  <a href="DELTA_subdomain/index.html">Tool 4</a>
+  </div>
+  </div>
+  <!-- BG video -->
+<video playsinline autoplay loop>
+			<source src="Other/videoBG.mp4" type="video/mp4"></source>
+			<script>
+				var video = document.currentScript.parentElement;
+				            video.volume = 0.2;
+			</script>
+		</video>
+  <!-- Main header and options  -->
+  <div class="container">
+  <!-- Header and options -->
+  <div class="center">
+  <center><h1>X A Y A C</h1></center>
+  <br>
+  <div class="links">
+  <!-- Options and DOT -->
+  <span class="dot"></span>
+    <li><a href="https://steamcommunity.com/id/xayac/" target="_blank">Steam</a></li>
+    <li><a href="https://github.com/xayac" target="_blank">Github</a></li>
+    <li><a href="https://soundcloud.com/xayac" target="_blank">Soundcloud</a></li>
+    <li><a href="https://www.youtube.com/channel/" target="_blank">YouTube</a></li>
+    <li><address><a href="mailto:Admin@xay.ac">Email</a></address><span class="dott"></span></li>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Dropdown JS controller  -->
+  <script>
+  // Get the button, and when the user clicks on it, execute myFunction
+  document.getElementById("myBtn").onclick = function() {myFunction()};
+  /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+  function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+  }
+  </script>
+  <style>
+      html, body{ height: 100%; margin: 0; padding: 0;}
+#background {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+}
+
