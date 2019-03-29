@@ -4,7 +4,7 @@
         var res = " ";
         var speed = 100;
         var pos = val;
-        msg = "   <"+msg+">   ";
+        msg = "   "+msg+"/   ";
         var le = msg.length;
         if(rev == "fwd"){
             if(pos < le){
